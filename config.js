@@ -31,7 +31,7 @@ global.contactos = [
 global.suittag = ['5493513610400'];
 global.prems = ['5493513610400'];
 
-global.lenguajeSK = es //idioma de sakurabot
+global.lenguajeSK = es //idioma de 𝐍𝐢𝐜𝐨𝐁𝐨𝐭𝐋𝐢𝐭𝐞-𝐌𝐃
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 🍁
 global.packname = '𝙉𝙞𝙘𝙤𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌐';
