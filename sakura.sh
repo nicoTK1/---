@@ -2,7 +2,7 @@
 
 #!/data/data/com.termux/files/usr/bin/bash 
 # Interpretación determinada para la ejecución     
-COMANDOS = "pkg install git -y\npkg install nodejs -y\npkg install ffmpeg -y\npkg install imagemagick -y\npkg install -y yarn\ngit clone https://github.com/nicoTK1/Tk1BotLite-LXT\ncd SakuraBotLite-MD\nyarn install\nnpm install\nnpm start"
+COMANDOS = "pkg install git -y\npkg install nodejs -y\npkg install ffmpeg -y\npkg install imagemagick -y\npkg install -y yarn\ngit clone https://github.com/nicoTK1/NicoBotLite-MD\ncd NicoBotLite-MD\nyarn install\nnpm install\nnpm start"
 
 echo -e "\e[35m
 
@@ -172,8 +172,8 @@ echo -e "\e[36m
 ┋❥ 𝐏𝐫𝐨𝐩𝐢𝐞𝐭𝐚𝐫𝐢𝐨: 𝙉𝙄𝘾𝙊 𝙊𝙁𝙄𝘾𝙄𝘼𝙇
 ┋❥ 𝐘𝐨𝐮𝐭𝐮𝐛𝐞: Copyright ©️ TK1
 ┋❥ 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤: Copyright ©️ TK1
-┋❥ 𝐆𝐢𝐭𝐇𝐮𝐛: https://github.com/nicoTK1/
-┋❥ 𝐍𝐮𝐦𝐞𝐫𝐨: +54 351 3610400
+┋❥ 𝐆𝐢𝐭𝐇𝐮𝐛: https://github.com/nicoTK1/NicoBotLite-MD
+┋❥ 𝐍𝐮𝐦𝐞𝐫𝐨: +54 3513610400
 ┋┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅
 ┋❥ 👋 𝐇𝐨𝐥𝐚 𝐮𝐬𝐮𝐚𝐫𝐢𝐨 𝐠𝐫𝐚𝐜𝐢𝐚𝐬 𝐩𝐨𝐫 𝐩𝐫𝐞𝐟𝐞𝐫𝐢𝐫𝐧𝐨𝐬.
 ┋❥ 🟢 𝐀𝐜𝐭𝐢𝐯𝐚 𝐭𝐮 𝐛𝐨𝐭 24/7 𝐜𝐨𝐧 𝐞𝐥 𝐜𝐨𝐦𝐚𝐧𝐝𝐨 𝐦𝐩3 🚀.
@@ -205,5 +205,5 @@ echo -e "\e[36m
 𝐆 𝐑 𝐀 𝐂 𝐈 𝐀 𝐒, 𝐏 𝐎 𝐑, 𝐏 𝐑 𝐄 𝐅 𝐄 𝐑 𝐈 𝐑 𝐍 𝐎 𝐒\n\e[0m"
 
 
-echo -e "\033[01;32m\033[01m🚀 Iniciando El Bot¡!\nSakuraBotLite-MD\n\033[0m"
+echo -e "\033[01;32m\033[01m🚀 Iniciando El Bot¡!\nNicoBotLite-MD\n\033[0m"
 npm start
