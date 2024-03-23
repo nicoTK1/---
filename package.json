@@ -18,16 +18,16 @@
     "eslint": "eslint .",
     "eslintfix": "eslint --fix ."
   },
-  "homepage": "https://github.com/diegojadibot/SakuraBotLite-MD",
+  "homepage": "https://github.com/nicoTK1/Tk1BotLite-LXT",
   "author": {
-    "name": "diegojadibot"
+    "name": "𝙉𝙄𝘾𝙊 𝙊𝙁𝙄𝘾𝙄𝘼𝙇"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/diegojadibot/SakuraBotLite-MD.git"
+    "url": "git+https://github.com/nicoTK1/Tk1BotLite-LXT"
   },
   "bugs": {
-    "url": "https://github.com/diegojadibot/SakuraBotLite-MD/issues"
+    "url": "https://github.com/nicoTK1/Tk1BotLite-LXT"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
