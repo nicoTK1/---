@@ -1,3 +1,4 @@
+//comando de https://github.com/nicoTK1/NicoBotLite-MD
 import {WAMessageStubType} from '@whiskeysockets/baileys';
 import fetch from 'node-fetch';
 
