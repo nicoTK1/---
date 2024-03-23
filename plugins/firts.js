@@ -10,6 +10,8 @@ if (new Date() - user.pc < 21600000) return
 await m.reply(`👋 𝘏𝘖𝘓𝘈 ${username}¡!
  *${saludo}*
 
+ *👑 BOT* _𝐍𝐢𝐜𝐨𝐁𝐨𝐭𝐋𝐢𝐭𝐞-𝐌𝐃_ ©️Copyright 𝘽𝙮 TK1
+
 *⚠️ Nota:* No Envié Spam Al Bot!
 ⚡️ Escriba !menu Para Ver Los Comandos Que Dispongo!
 
