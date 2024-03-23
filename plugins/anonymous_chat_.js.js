@@ -1,3 +1,4 @@
+//comando de https://github.com/nicoTK1/NicoBotLite-MD
 export async function before(m, {match}) {
   if (!m.chat.endsWith('@s.whatsapp.net')) {
     return !0;
