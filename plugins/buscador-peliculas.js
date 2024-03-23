@@ -1,3 +1,6 @@
+//comando de https://github.com/nicoTK1/NicoBotLite-MD
+//comando de https://github.com/nicoTK1/NicoBotLite-MD
+//comando de https://github.com/nicoTK1/NicoBotLite-MD
 
 
 /*import fetch from 'node-fetch';
