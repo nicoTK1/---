@@ -1,3 +1,4 @@
+//comando de https://github.com/nicoTK1/NicoBotLite-MD
 const handler = async (m, {text}) => {
   const user = global.db.data.users[m.sender];
   user.afk = + new Date;
