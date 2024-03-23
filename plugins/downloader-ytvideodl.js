@@ -1,3 +1,4 @@
+//comando de https://github.com/nicoTK1/NicoBotLite-MD
 import ytdl from 'ytdl-core';
 import fs from 'fs';
 
