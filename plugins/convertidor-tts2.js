@@ -1,16 +1,4 @@
-/*//////////////////////////////////////////////
-
-        [ ❗ ] CREDITOS - NO MODIFICAR [ ❗ ]
-
-           Codigo hecho por @BrunoSobrino
-       Github: https://github.com/BrunoSobrino
-       
-       Nota: Solo hay disponibles efectos en
-       ingles, por lo que el texto en otros
-       idiomas puede sonar raro.
-       
-//////////////////////////////////////////////*/
-
+//comando de https://github.com/nicoTK1/NicoBotLite-MD
 import axios from 'axios';
 import fetch from 'node-fetch';
 const handler = async (m, { conn, usedPrefix, command, text, args }) => {
@@ -19,7 +7,7 @@ const handler = async (m, { conn, usedPrefix, command, text, args }) => {
 
   if (!efecto) {
     let voiceList = await getVoiceList();
-    let responseText = `*[❗] No haz ingresado un efecto, por favor ingresa un efecto de voz.*\n\n*—◉ Elige uno de los siguientes efectos:*\n`;
+    let responseText = `[❗] 𝙉𝙤 𝙝𝙖𝙯 𝙞𝙣𝙜𝙧𝙚𝙨𝙖𝙙𝙤 𝙪𝙣 𝙚𝙛𝙚𝙘𝙩𝙤, 𝙥𝙤𝙧 𝙛𝙖𝙫𝙤𝙧 𝙞𝙣𝙜𝙧𝙚𝙨𝙖 𝙪𝙣 𝙚𝙛𝙚𝙘𝙩𝙤 𝙙𝙚 𝙫𝙤𝙯.\n\n—◉ 𝙀𝙡𝙞𝙜𝙚 𝙪𝙣𝙤 𝙙𝙚 𝙡𝙤𝙨 𝙨𝙞𝙜𝙪𝙞𝙚𝙣𝙩𝙚𝙨 𝙚𝙛𝙚𝙘𝙩𝙤𝙨:\n`;
 
     for (let i = 0, count = 0; count < 100 && i < voiceList.resultado.length; i++) {
       const entry = voiceList.resultado[i];
@@ -41,9 +29,9 @@ const handler = async (m, { conn, usedPrefix, command, text, args }) => {
     }
   }
 
-  if (!efectoValido) return conn.sendMessage(m.chat, { text: `*[❗] El efecto proporcionado no existe en la lista, utiliza ${usedPrefix + command} para conocer la lista de efectos.*` }, { quoted: m });
+  if (!efectoValido) return conn.sendMessage(m.chat, { text: `[❗] 𝙀𝙡 𝙚𝙛𝙚𝙘𝙩𝙤 𝙥𝙧𝙤𝙥𝙤𝙧𝙘𝙞𝙤𝙣𝙖𝙙𝙤 𝙣𝙤 𝙚𝙭𝙞𝙨𝙩𝙚 𝙚𝙣 𝙡𝙖 𝙡𝙞𝙨𝙩𝙖, 𝙪𝙩𝙞𝙡𝙞𝙯𝙖 ${usedPrefix + command} 𝙥𝙖𝙧𝙖 𝙘𝙤𝙣𝙤𝙘𝙚𝙧 𝙡𝙖 𝙡𝙞𝙨𝙩𝙖 𝙙𝙚 𝙚𝙛𝙚𝙘𝙩𝙤𝙨` }, { quoted: m });
 
-  if (!texto) return conn.sendMessage(m.chat, {text: `*[❗] Ingresa el texto que quieras convertir a audio.*\n\n*—◉ Ejemplo:*\n*◉ ${usedPrefix + command} ${efecto} Hola, este es un ejemplo de uso del comando.*`}, {quoted: m});
+  if (!texto) return conn.sendMessage(m.chat, {text: `[❗] 𝙄𝙣𝙜𝙧𝙚𝙨𝙖 𝙚𝙡 𝙩𝙚𝙭𝙩𝙤 𝙦𝙪𝙚 𝙦𝙪𝙞𝙚𝙧𝙖𝙨 𝙘𝙤𝙣𝙫𝙚𝙧𝙩𝙞𝙧 𝙖 𝙖𝙪𝙙𝙞𝙤.\n\n*—◉ Ejemplo:*\n*◉ ${usedPrefix + command} ${efecto} 𝙃𝙤𝙡𝙖, 𝙚𝙨𝙩𝙚 𝙚𝙨 𝙪𝙣 𝙚𝙟𝙚𝙢𝙥𝙡𝙤 𝙙𝙚 𝙪𝙨𝙤 𝙙𝙚𝙡 𝙘𝙤𝙢𝙖𝙣𝙙𝙤.`}, {quoted: m});
 
   let masivo = await makeTTSRequest(texto, efecto);
   conn.sendMessage(m.chat, {audio: {url: masivo.resultado}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
@@ -79,10 +67,10 @@ async function getVoiceList() {
       name: entry.name,
       lenguaje: entry.language  
     }));
-    return { resultado: simplifiedList ? simplifiedList : '[❗] Error, no se obtuvo respuesta de la API.' };
+    return { resultado: simplifiedList ? simplifiedList : '[❗] 𝙀𝙧𝙧𝙤𝙧, 𝙣𝙤 𝙨𝙚 𝙤𝙗𝙩𝙪𝙫𝙤 𝙧𝙚𝙨𝙥𝙪𝙚𝙨𝙩𝙖 𝙙𝙚 𝙡𝙖 𝘼𝙋𝙄.' };
   } catch (error) {
     console.error('Error:', error);
-    return { resultado: '[❗] Error, no se obtuvo respuesta de la API.' };
+    return { resultado: '[❗] 𝙀𝙧𝙧𝙤𝙧, 𝙣𝙤 𝙨𝙚 𝙤𝙗𝙩𝙪𝙫𝙤 𝙧𝙚𝙨𝙥𝙪𝙚𝙨𝙩𝙖 𝙙𝙚 𝙡𝙖 𝘼𝙋𝙄.' };
     throw error;
   }
 }
@@ -101,7 +89,7 @@ async function makeTTSRequest(texto, efecto) {
     const eventData = events.find(event => event.includes('"stage":"complete"'));
     const urlMatch = eventData.match(/"url":"([^"]+)"/);
     const url = urlMatch ? urlMatch[1] : null;
-    return { resultado: url ? url : '[❗] URL no encontrada en la respuesta.' };
+    return { resultado: url ? url : '[❗] 𝙐𝙍𝙇 𝙣𝙤 𝙚𝙣𝙘𝙤𝙣𝙩𝙧𝙖𝙙𝙖 𝙚𝙣 𝙡𝙖 𝙧𝙚𝙨𝙥𝙪𝙚𝙨𝙩𝙖.' };
   } catch (error) {
     console.error('Error:', error);
     return { resultado: '[❗] Error, no se obtuvo respuesta de la API.' };
