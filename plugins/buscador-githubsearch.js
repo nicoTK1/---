@@ -1,4 +1,4 @@
-
+//comando de https://github.com/nicoTK1/NicoBotLite-MD
 import fetch from 'node-fetch';
 const handler = async (m, {conn, text, usedPrefix, command}) => {
   if (!text) throw `*📍 𝙄𝙉𝙂𝙍𝙀𝙎𝙀 𝙐𝙉 𝙏𝙀𝙭𝙏𝙊 𝙋𝘼𝙍𝘼 𝘽𝙐𝙎𝘾𝘼𝙍, 𝙀𝙟𝙚𝙢𝙥𝙡𝙤: ${usedPrefix + command} NicoBotLite-MD*`;
