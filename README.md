@@ -1,5 +1,5 @@
 
-> 🌹📍Versión Del Bot: 1.0.7
+> 🌹📍Versión Del Bot: 1.0.0
 
 ### 𝙉𝙞𝙘𝙤𝙤 : 𝘽𝙤𝙩 - 𝙇𝙞𝙩𝙚 - 𝙈𝘿 🌐
 <p align="center">
