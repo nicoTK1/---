@@ -1,3 +1,4 @@
+//comando de https://github.com/nicoTK1/NicoBotLite-MD
 export async function before(m) {
 
 const username = conn.getName(m.sender)
