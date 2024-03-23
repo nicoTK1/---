@@ -14,13 +14,13 @@
 
 
 - ### 🌤Configuracion🧩
- Clonar Repo : SakuraBot [Aqui.](https://github.com/nicoTK1/Tk1BotLite-MD/fork)
+ Clonar Repo : SakuraBot [Aqui.](https://github.com/nicoTK1/NicoBotLite-MD/fork)
 
    
   
 - ### 🧸Instalar Por Render🧩
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2diegojadibot%2FSakuraBotLite-MD) 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2nicoTK1%2FNicoBotLite-MD) 
 
 - ### 📍Instalar Por Code Space🧸
 
@@ -39,7 +39,7 @@ termux-setup-storage
 ```
 
 ```bash
-apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/nicoTK1/Tk1BotLite-MD/master/sakura.sh | bash
+apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/nicoTK1/NicoBotLite-MD/master/sakura.sh | bash
 ```
 
 - #### 📍Instalacion Por Termux Manual👨‍💻
@@ -52,7 +52,7 @@ termux-setup-storage
 apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 ```bash
-git clone https://github.com/nicoTK1/Tk1BotLite-MD && cd SakuraBotLite-MD
+git clone https://github.com/nicoTK1/NicoBotLite-MD && cd NicoBotLite-MD
 ```
 ```bash
 yarn install && npm install
@@ -65,21 +65,21 @@ npm start
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
-> cd SakuraBotLite-MD
+> cd NicoBotLite-MD
 > npm start
 ```
 
 - ### 📍Obtener Otro Codigo Qr👨‍💻 
 ```bash
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-> cd SakuraBotLite-MD
-> rm -rf SakuraBotSession
+> cd NicoBotLite-MD
+> rm -rf Nicobotseccion
 > npm start
 ```
 - ### 📍Actualizar SakuraBot 🟢
 > Note Comandos para actualizar SakuraBotLite-MD de forma automática
 ```bash
-grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/nicoTK1/Tk1BotLite-MD/master/update.sh | bash
+grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/nicoTK1/NicoBotLite-MD/master/update.sh | bash
 ```
 Para que no pierda su progreso en SakuraBot, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
 
@@ -88,7 +88,7 @@ Para que no pierda su progreso en SakuraBot, estos comandos realizarán un respa
 - ### 📍 Activar En Heroku 🚀
 para usuarios del heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/diegojadibot/SakuraBotLite-MD)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/nicoTK1/NicoBotLite-MD)
 
 #### Heroku Buildpack
 | BuildPack | LINK |
