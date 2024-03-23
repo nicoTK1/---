@@ -1,5 +1,4 @@
-//
-// By @NeKosmic || https://github.com/NeKosmic/
+//comando de https://github.com/nicoTK1/NicoBotLite-MD
 //
 
 import * as fs from 'fs';
