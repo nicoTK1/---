@@ -1,3 +1,4 @@
+//comando de https://github.com/nicoTK1/NicoBotLite-MD
 import fetch from 'node-fetch';
 import axios from 'axios';
 import instagramGetUrl from 'instagram-url-direct';
