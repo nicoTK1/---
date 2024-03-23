@@ -1,3 +1,4 @@
+//comando de https://github.com/nicoTK1/NicoBotLite-MD
 const handler = async (m, {conn, usedPrefix, text, command}) => {
   let hash = text;
   if (m.quoted && m.quoted.fileSha256) hash = m.quoted.fileSha256.toString('hex');
