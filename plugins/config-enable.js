@@ -1,3 +1,4 @@
+//comando de https://github.com/nicoTK1/NicoBotLite-MD
 const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, isROwner}) => {
   const optionsFull = `╭✨️⸽⃕𝐍𝐢𝐜𝐨𝐁𝐨𝐭𝐋𝐢𝐭𝐞-𝐌𝐃🌐✰
 ┣☆ ඬ⃟⚓️ !enable welcome
@@ -361,7 +362,7 @@ break;
       if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, {text: optionsFull}, {quoted: m});
       throw false;
   }
-  conn.sendMessage(m.chat, {text: `ꨄ︎ *🧸 Tipo*: ${type}\nꨄ︎ *📍 Estado*: ${isEnable ? 'Activo ✅️' : 'Desactivo ❎️'}\nꨄ︎ *🧩 Para*: ${isAll ? '𝐍𝐢𝐜𝐨𝐁𝐨𝐭𝐋𝐢𝐭𝐞-𝐌𝐃 ' : isUser ? '' : 'Este Chat'}`}, {quoted: m});
+  conn.sendMessage(m.chat, {text: `ꨄ︎ *💖 𝐂𝐨𝐦𝐚𝐧𝐝𝐨*: ${type}\nꨄ︎ *🌟 Estado*: ${isEnable ? 'Activo ✅️' : 'Desactivo ❌'}\nꨄ︎ *🧩 𝐄𝐧*: ${isAll ? '𝘕𝘪𝘤𝘰𝘉𝘰𝘵𝘓𝘪𝘵𝘦-𝘔𝘋 ' : isUser ? '' : '𝘌𝘚𝘛𝘌 𝘊𝘏𝘈𝘛'}`}, {quoted: m});
 };
 handler.command = /^((en|dis)able|(tru|fals)e|(turn)?[01])$/i;
 export default handler;
