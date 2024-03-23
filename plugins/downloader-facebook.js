@@ -1,3 +1,4 @@
+//comando de https://github.com/nicoTK1/NicoBotLite-MD
 import fg from 'api-dylux';
 import fetch from 'node-fetch';
 import {savefrom, facebookdl, facebookdlv2} from '@bochilteam/scraper';
@@ -6,7 +7,7 @@ import {facebook} from '@xct007/frieren-scraper';
 import axios from 'axios';
 const handler = async (m, {conn, args, command, usedPrefix}) => {
   if (!args[0]) throw `⚠️ _Ingrese Un Enlace De Facebook_\n\n*Ejemplo:*\n*${usedPrefix + command}* https://fb.watch/fOTpgn6UFQ/`;
-  if (!args[0].match(/www.facebook.com|fb.watch/g)) throw `⚠️ _Ingrese Un Enlace De Facebook_\n\n*Ejemplo:*\n*${usedPrefix + command}* https://fb.watch/fOTpgn6UFQ/`;
+  if (!args[0].match(/www.facebook.com|fb.watch/g)) throw `⚠️ 𝙄𝙣𝙜𝙧𝙚𝙨𝙚 𝙐𝙣 𝙀𝙣𝙡𝙖𝙘𝙚 𝘿𝙚 𝙁𝙖𝙘𝙚𝙗𝙤𝙤𝙠\n\n*Ejemplo:*\n*${usedPrefix + command}* https://fb.watch/fOTpgn6UFQ/`;
   try {
     await m.reply(`*🥀 ᴅᴇsᴄᴀʀɢᴀɴᴅᴏ sᴜ ᴠɪᴅᴇᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ ᴘᴏʀ ғᴀᴠᴏʀ, ᴇsᴛᴇ ᴘʀᴏᴄᴇsᴏ ᴘᴜᴇᴅᴇ ᴅᴜʀᴀʀ ᴇɴᴛʀᴇ 2 ʏ 10 ᴍɪɴᴜᴛᴏs ᴅᴇᴘᴇɴᴅɪᴇɴᴅᴏ ᴅᴇ ʟᴀ ᴅᴜʀᴀᴄɪᴏɴ ᴅᴇʟ ᴠɪᴅᴇᴏ...*`);
     const d2ata = await facebook.v1(args[0]);
@@ -14,7 +15,7 @@ const handler = async (m, {conn, args, command, usedPrefix}) => {
     if (d2ata.urls && d2ata.urls.length > 0) {
       r2es = `${d2ata.urls[0]?.hd || d2ata.urls[1]?.sd || ''}`;
     }
-    conn.sendFile(m.chat, r2es, 'error.mp4', `*𝖠𝗊𝗎𝗂 𝖤𝗌𝗍𝖺 𝖲𝗎 𝖵𝗂𝖽𝖾𝗈*`, m);
+    conn.sendFile(m.chat, r2es, 'error.mp4', `𝘼𝙦𝙪𝙞 𝙎𝙪 𝙑𝙞𝙙𝙚𝙤 𝘿𝙚 𝙁𝙖𝙘𝙚𝙗𝙤𝙤𝙠 🚀`, m);
   } catch (err1) {
     try {
       const req = await igeh(args[0]);
@@ -25,25 +26,25 @@ const handler = async (m, {conn, args, command, usedPrefix}) => {
         const Jjson = await Rres.json();
         let VIDEO = Jjson.result[0];
         if (VIDEO == '' || !VIDEO || VIDEO == null) VIDEO = Jjson.result[1];
-        conn.sendFile(m.chat, VIDEO, 'error.mp4', `*Aqui Su Video De Facebook 🚀*`, m);
+        conn.sendFile(m.chat, VIDEO, 'error.mp4', `𝘼𝙦𝙪𝙞 𝙎𝙪 𝙑𝙞𝙙𝙚𝙤 𝘿𝙚 𝙁𝙖𝙘𝙚𝙗𝙤𝙤𝙠 🚀`, m);
       } catch (err2) {
         try {
           const ress = await fg.fbdl(args[0]);
           const urll = await ress.data[0].url;
-          await conn.sendFile(m.chat, urll, 'error.mp4', '*Aqui Su Video De Facebook 🚀*', m);
+          await conn.sendFile(m.chat, urll, 'error.mp4', '𝘼𝙦𝙪𝙞 𝙎𝙪 𝙑𝙞𝙙𝙚𝙤 𝘿𝙚 𝙁𝙖𝙘𝙚𝙗𝙤𝙤𝙠 🚀', m);
         } catch (err3) {
           try {
             const res = await fbDownloader(args[0]);
             for (const result of res.download) {
               const ur = result.url;
-              await conn.sendFile(m.chat, ur, 'error.mp4', '*Aqui Su Video De Facebook 🚀*', m);
+              await conn.sendFile(m.chat, ur, 'error.mp4', '𝘼𝙦𝙪𝙞 𝙎𝙪 𝙑𝙞𝙙𝙚𝙤 𝘿𝙚 𝙁𝙖𝙘𝙚𝙗𝙤𝙤𝙠 🚀', m);
             }
           } catch (err4) {
             try {
               const res3 = await fetch(`https://latam-api.vercel.app/api/facebookdl?apikey=nekosmic&q=${args[0]}`);
               const json = await res3.json();
               const url3 = await json.video;
-              await conn.sendFile(m.chat, url3, 'error.mp4', '*Aqui Su Video De Facebook 🚀*', m);
+              await conn.sendFile(m.chat, url3, 'error.mp4', '𝘼𝙦𝙪𝙞 𝙎𝙪 𝙑𝙞𝙙𝙚𝙤 𝘿𝙚 𝙁𝙖𝙘𝙚𝙗𝙤𝙤𝙠 🚀', m);
             } catch (err5) {
               try {
                 const {result} = await facebookdl(args[0]).catch(async (_) => await facebookdlv2(args[0])).catch(async (_) => await savefrom(args[0]));
