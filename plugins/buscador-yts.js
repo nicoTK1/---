@@ -1,8 +1,9 @@
+//comando de https://github.com/nicoTK1/NicoBotLite-MD
 import yts from 'yt-search';
 import fs from 'fs';
 
 const handler = async (m, {conn, text}) => {
-  if (!text) throw '🧸 *_Que quieres que busque en YouTube?_*';
+  if (!text) throw '🧸 𝘘𝘜𝘌 𝘘𝘜𝘐𝘌𝘙𝘌𝘚 𝘉𝘜𝘚𝘊𝘈𝘙 𝘌𝘕 𝙔𝙊𝙐𝙏𝙐𝘽𝙀 ?? ';
   const results = await yts(text);
   const tes = results.all;
   const teks = results.all.map((v) => {
