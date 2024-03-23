@@ -1,4 +1,4 @@
-// manden porno test
+//comando de https://github.com/nicoTK1/NicoBotLite-MD
 const linkRegex = /https:/i;
 export async function before(m, {conn, isAdmin, isBotAdmin, text}) {
   if (m.isBaileys && m.fromMe) {
