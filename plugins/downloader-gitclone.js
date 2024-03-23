@@ -1,3 +1,4 @@
+//comando de https://github.com/nicoTK1/NicoBotLite-MD
 import fetch from 'node-fetch';
 const regex = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i;
 const handler = async (m, {args, usedPrefix, command}) => {
@@ -11,7 +12,7 @@ ${usedPrefix + command} https://github.com/nicoTK1/NicoBotLite-MD`;
   repo = repo.replace(/.git$/, '');
   const url = `https://api.github.com/repos/${user}/${repo}/zipball`;
   const filename = (await fetch(url, {method: 'HEAD'})).headers.get('content-disposition').match(/attachment; filename=(.*)/)[1];
-  m.reply(`⏰️ _Espere, El Archivo Se Está Enviando...._`);
+  m.reply(`⏰️ 𝘌𝘴𝘱𝘦𝘳𝘦, 𝘌𝘭 𝘈𝘳𝘤𝘩𝘪𝘷𝘰 𝘚𝘦 𝘌𝘴𝘵á 𝘌𝘯𝘷𝘪𝘢𝘯𝘥𝘰....`);
   conn.sendFile(m.chat, url, filename, null, m);
 };
 handler.help = ['gitclone <url>'];
