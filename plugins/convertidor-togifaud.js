@@ -1,3 +1,4 @@
+//comando de https://github.com/nicoTK1/NicoBotLite-MD
 const handler = async (m, {conn, usedPrefix, command}) => {
   if (!m.quoted) throw `*🍧 Responda A Un Video Que Desee Convertir En Gif Con Audio*`;
   const q = m.quoted || m;
