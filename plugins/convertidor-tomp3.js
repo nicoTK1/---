@@ -1,3 +1,4 @@
+//comando de https://github.com/nicoTK1/NicoBotLite-MD
 import {toAudio} from '../lib/converter.js';
 const handler = async (m, {conn, usedPrefix, command}) => {
   const q = m.quoted ? m.quoted : m;
