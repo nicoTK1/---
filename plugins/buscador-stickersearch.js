@@ -1,4 +1,4 @@
-/* By https://github.com/ALBERTO9883 */
+//comando de https://github.com/nicoTK1/NicoBotLite-MD
 import fs from 'fs';
 import fetch from 'node-fetch';
 import {googleImage} from '@bochilteam/scraper';
