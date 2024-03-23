@@ -1,5 +1,5 @@
 {
-  "name": "SakuraBotLite-MD",
+  "name": "NicoBotLite-MD",
   "version": "1.0.0",
   "description": "El Mejor Bot",
   "main": "index.js",
@@ -18,7 +18,7 @@
     "eslint": "eslint .",
     "eslintfix": "eslint --fix ."
   },
-  "homepage": "https://github.com/nicoTK1/Tk1BotLite-LXT",
+  "homepage": "https://github.com/nicoTK1/NicoBotLite-MD",
   "author": {
     "name": "𝙉𝙄𝘾𝙊 𝙊𝙁𝙄𝘾𝙄𝘼𝙇"
   },
@@ -27,7 +27,7 @@
     "url": "git+https://github.com/nicoTK1/Tk1BotLite-LXT"
   },
   "bugs": {
-    "url": "https://github.com/nicoTK1/Tk1BotLite-LXT"
+    "url": "https://github.com/nicoTK1/NicoBotLite-MD"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
