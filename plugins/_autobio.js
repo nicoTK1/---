@@ -1,3 +1,4 @@
+//comando de https://github.com/nicoTK1/NicoBotLite-MD
 let handler = m => m 
 handler.all = async function (m) {
 let setting = global.db.data.settings[this.user.jid]
