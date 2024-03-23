@@ -10,11 +10,11 @@
 
 > Si Deseas Probar El Bot Antes De Instalarlo, Click Abajo.🟢
 
-<a href="https://chat.whatsapp.com/Eaa9JFA53ps7WHMv2VHbO9"><img alt="📍 Grupo Oficial" src="https://img.shields.io/badge/Grupo-Oficial-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+<a href="https://chat.whatsapp.com/FM3nxGG4NvHETBmvJu8r52"><img alt="📍 Grupo Oficial" src="https://img.shields.io/badge/Grupo-Oficial-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
 
 - ### 🌤Configuracion🧩
- Clonar Repo : SakuraBot [Aqui.](https://github.com/diegojadibot/SakuraBotLite-MD/fork)
+ Clonar Repo : SakuraBot [Aqui.](https://github.com/nicoTK1/Tk1BotLite-MD/fork)
 
    
   
@@ -106,14 +106,14 @@ para usuarios del heroku
 
 ## <img src="https://static.wikia.nocookie.net/nyancat/images/d/d3/Nyan-cat.gif/revision/latest/scale-to-width-down/400?cb=20131231222500&path-prefix=es" alt="Grupo" width="45" height="43"> Bot Oficial 📍
 
-* <a href="https://wa.me/573218138672?text=!menu"><img alt="Bot Oficial 📍" src="https://img.shields.io/badge/Bot - Oficial📍-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+* <a href="https://wa.me/543515339348?text=!menu"><img alt="Bot Oficial 📍" src="https://img.shields.io/badge/Bot - Oficial📍-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
 > No Spam Al Bot!
 ---------
 
 ### Editor Y Propietario Del Bot 🌹⚡️
 <a
-href="https://github.com/diegojadibot"><img src="https://github.com/diegojadibot.png" width="200" height="200" alt="Diego"/></a>
+href="https://github.com/nicoTK1"><img src="https://github.com/diegojadibot.png" width="200" height="200" alt="Diego"/></a>
 
 ## Colaboradores Del Bot ✨️  
 [![AzamiJs](https://github.com/AzamiJs.png?size=100)](https://github.com/AzamiJs) [![elrebelde21](https://github.com/elrebelde21.png?size=100)](https://github.com/elrebelde21) [![MoonContentCreator](https://github.com/MoonContentCreator.png?size=100)](https://github.com/MoonContentCreator)
