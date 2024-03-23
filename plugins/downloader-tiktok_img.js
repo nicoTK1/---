@@ -1,8 +1,4 @@
-// Code by Xnuvers007 ft. Jikarinka
-// https://github.com/Xnuvers007/
-// 
-// Mejorado por @BrunoSobrino
-////////////////////////////////////
+//comando de https://github.com/nicoTK1/NicoBotLite-MD
 
 import axios from 'axios';
 import cheerio from 'cheerio';
