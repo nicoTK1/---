@@ -1,6 +1,7 @@
+
 import fetch from 'node-fetch';
 const handler = async (m, {conn, text, usedPrefix, command}) => {
-  if (!text) throw `*📍 Ingrese un texto para buscar, Ejemplo: ${usedPrefix + command} NicoBotLite-MD*`;
+  if (!text) throw `*📍 𝙄𝙉𝙂𝙍𝙀𝙎𝙀 𝙐𝙉 𝙏𝙀𝙭𝙏𝙊 𝙋𝘼𝙍𝘼 𝘽𝙐𝙎𝘾𝘼𝙍, 𝙀𝙟𝙚𝙢𝙥𝙡𝙤: ${usedPrefix + command} NicoBotLite-MD*`;
   const res = await fetch(global.API('https://api.github.com', '/search/repositories', {
     q: text,
   }));
