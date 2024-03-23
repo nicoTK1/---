@@ -329,7 +329,7 @@ if (opcion == '1' || methodCodeQR) {
  }}
    if (connection == 'open') {
 console.log(chalk.greenBright('\n╭┈ ┈ ┈ ┈ ┈ • 𝙉𝙞𝙘𝙤𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌐 • ┈ ┈ ┈ ┈ ┈╮\n┊ 💚 CONEXIÓN EXITOSA CON WHATSAPP 💚\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈╯\n'))
-//conn.fakeReply('573012482694@s.whatsapp.net', '😄', '0@s.whatsapp.net', '😸 Soy 𝙉𝙞𝙘𝙤𝘽𝙤𝙩\nRecientemente Me E Conectado', '0@s.whatsapp.net')
+//conn.fakeReply('5493513610400@s.whatsapp.net', '😄', '0@s.whatsapp.net', '😸 Soy 𝙉𝙞𝙘𝙤𝘽𝙤𝙩\nRecientemente Me E Conectado', '0@s.whatsapp.net')
  await conn.groupAcceptInvite('Eaa9JFA53ps7WHMv2VHbO9');
    }
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
