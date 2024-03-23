@@ -28,7 +28,7 @@ async function searchHentai(search) {
       const res = [];
       result.coder = 'rem-comp';
       result.result = res;
-      result.warning = 'It is strictly forbidden to reupload this code, copyright © 2022 by rem-comp';
+      result.warning = 'It is strictly forbidden to reupload this code, copyright © 2024 by nico-TK1';
       $('div.flex > div.crsl-slde').each(function(a, b) {
         const _thumbnail = $(b).find('img').attr('src');
         const _title = $(b).find('a').text().trim();
