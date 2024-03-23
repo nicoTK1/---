@@ -1,8 +1,9 @@
+//comando de https://github.com/nicoTK1/NicoBotLite-MD
 import translate from '@vitalets/google-translate-api';
 import {Anime} from '@shineiichijo/marika';
 const client = new Anime();
 const handler = async (m, {conn, text, usedPrefix}) => {
-  if (!text) return m.reply(`*🥀 Ingrese un nombre de algun anime*`);
+  if (!text) return m.reply(`🥀 𝙄𝙉𝙂𝙍𝙀𝙎𝙀 𝙀𝙇 𝙉𝙊𝙈𝘽𝙍𝙀 𝘿𝙀 𝘼𝙇𝙂𝙐𝙉 𝘼𝙉𝙄𝙈𝙀`);
   try {
     const anime = await client.searchAnime(text);
     const result = anime.data[0];
