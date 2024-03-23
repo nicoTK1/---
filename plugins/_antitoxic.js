@@ -1,3 +1,4 @@
+//comando de https://github.com/nicoTK1/NicoBotLite-MD
 const toxicRegex = /puto|negro|negra|zorra|gordo|porno|sexo|puta|down|mogolico|idiota|feo|fea|rata|estupido|imbecil|rctmre|mrd|verga|vrga|maricon/i;
 
 export async function before(m, {isAdmin, isBotAdmin, isOwner}) {
