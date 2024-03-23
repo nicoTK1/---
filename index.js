@@ -17,7 +17,7 @@ say('SakuraBot\nLite-MD', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']});
-say(`Bot creado por 𝙉𝙄𝘾𝙊 𝙊𝙁𝙄𝘾𝙄𝘼𝙇`, {
+say(`Bot creado por Nico Oficial`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']});
