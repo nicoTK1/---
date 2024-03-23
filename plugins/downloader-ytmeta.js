@@ -1,4 +1,4 @@
-/* creditos del código a @darlyn1234 */
+//comando de https://github.com/nicoTK1/NicoBotLite-MD
 import YTDL from "../lib/ytdll.js";
 import axios from "axios";
 import fs from "fs";
