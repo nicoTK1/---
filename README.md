@@ -113,7 +113,7 @@ para usuarios del heroku
 
 ### Editor Y Propietario Del Bot 🌹⚡️
 <a
-href="wa.me/543513610400">.Aqui<img src="https://github.com/diegojadibot.png" width="200" height="200" alt="NICO"/></a>
+href=""><img src="https://github.com/diegojadibot.png" width="200" height="200" alt="NICO"/></a>
 
 ## Colaboradores Del Bot ✨️  
 [![AzamiJs](https://github.com/AzamiJs.png?size=100)](https://github.com/AzamiJs) [![elrebelde21](https://github.com/elrebelde21.png?size=100)](https://github.com/elrebelde21) [![MoonContentCreator](https://github.com/MoonContentCreator.png?size=100)](https://github.com/MoonContentCreator)
