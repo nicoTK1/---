@@ -76,7 +76,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > rm -rf NicoBotSession
 > npm start
 ```
-- ### 📍Actualizar SakuraBot 🟢
+- ### 📍Actualizar 𝙉𝙞𝙘𝙤𝙤𝘽𝙤𝙩 🟢
 > Note Comandos para actualizar NicoBotLite-MD de forma automática
 ```bash
 grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/nicoTK1/NicoBotLite-MD/master/update.sh | bash
