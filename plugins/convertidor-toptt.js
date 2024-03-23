@@ -1,4 +1,4 @@
-import {toPTT} from '../lib/converter.js';
+//comando de https://github.com/nicoTK1/NicoBotLite-MD
 const handler = async (m, {conn, usedPrefix, command}) => {
   const q = m.quoted ? m.quoted : m;
   const mime = (m.quoted ? m.quoted : m.msg).mimetype || '';
