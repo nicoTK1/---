@@ -1,3 +1,4 @@
+//comando de https://github.com/nicoTK1/NicoBotLite-MD
 import fetch from 'node-fetch';
 import {sizeFormatter} from 'human-readable';
 const formatSize = sizeFormatter({
