@@ -1,3 +1,4 @@
+//comando de https://github.com/nicoTK1/NicoBotLite-MD
 export function before(m) {
   const user = global.db.data.users[m.sender];
   if (user.afk > -1) {
