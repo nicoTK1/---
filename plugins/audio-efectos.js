@@ -1,3 +1,4 @@
+//comando de https://github.com/nicoTK1/NicoBotLite-MD
 import {unlinkSync, readFileSync} from 'fs';
 import {join} from 'path';
 import {exec} from 'child_process';
