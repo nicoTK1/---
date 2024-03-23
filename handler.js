@@ -1554,16 +1554,16 @@ let date = d.toLocaleDateString('es', { day: 'numeric', month: 'long', year: 'nu
 
 global.dfail = (type, m, conn) => {
   const msg = {
-    rowner: '*¡Este Comando Es Exclusivo Para Mi Desarrollador!*',
-    owner: '*¡El Uso Del Comando Solo Lo Puede Usar Mi Desarrollador!*',
-    mods: '*¡Esta Función Solo Lo Puede Utilizar Mi Propietario!*',
-    premium: '*¡Esta Función Solo Se Puede Usar Por Los Usuarios Premium*',
-    group: '*¡Esta Función Solo Se Puede Usar En Grupos!*',
-    private: '*¡Esta Función Solo Se Puede Utilizar Al Chat Privado Del Bot!*',
-    admin: '*¡Esta Función Solo Se Puede Utilizar Por Un Admin Del Grupo!*',
-    botAdmin: '*!Para Poder Utilizar Este Comando Es Necesario Que El Bot Sea Admin!*',
-    unreg: '*¡Para Continuar Con Esta Función Es Necesario Registrarse!*\n\n!verificar nombre.edad\n\n*Uso Correcto* : !verificar Nico.15',
-    restrict: '*!Esta Función Fué Deshabilitado Por Mi Desarrollador*',
+    rowner: '𝙀𝙎𝙏𝙀 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 𝙎𝙊𝙇𝙊 𝙇𝙊 𝙋𝙐𝙀𝘿𝙀 𝙐𝙎𝘼𝙍 𝙈𝙄 𝘾𝙍𝙀𝘼𝘿𝙊𝙍 ( 𝙉𝙄𝘾𝙊 ) 🍓',
+    owner: '𝙀𝙎𝙏𝙀 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 𝙎𝙊𝙇𝙊 𝙇𝙊 𝙋𝙐𝙀𝘿𝙀 𝙐𝙎𝘼𝙍 𝙈𝙄 𝘾𝙍𝙀𝘼𝘿𝙊𝙍 ( 𝙉𝙄𝘾𝙊 ) 🍓',
+    mods: '𝙀𝙎𝙏𝙀 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 𝙎𝙊𝙇𝙊 𝙇𝙊 𝙋𝙐𝙀𝘿𝙀 𝙐𝙎𝘼𝙍 𝙈𝙄 𝘿𝙐𝙀Ñ𝙊 ( 𝙉𝙄𝘾𝙊 ) 💎',
+    premium: '𝙀𝙎𝙏𝙀 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 𝙀𝙎 𝙎𝙊𝙇𝙊 𝙋𝘼𝙍𝘼 𝙋𝙍𝙀𝙈𝙄𝙐𝙈𝙎 💎',
+    group: '𝙀𝙎𝙏𝙀 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 𝙎𝙊𝙇𝙊 𝙎𝙀 𝙋𝙐𝙀𝘿𝙀 𝙐𝙎𝘼𝙍 𝙀𝙉 𝙂𝙍𝙐𝙋𝙊𝙎 ⚡',
+    private: '𝙀𝙎𝙏𝙀 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 𝙎𝙊𝙇𝙊 𝙎𝙀 𝙋𝙐𝙀𝘿𝙀 𝙐𝙎𝘼𝙍, 𝘼𝙇 𝘾𝙃𝘼𝙏 𝙋𝙍𝙄𝙑𝘼𝘿𝙊 𝘿𝙀𝙇 𝘽𝙊𝙏 🎀',
+    admin: '𝙀𝙎𝙏𝙀 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 𝙀𝙎 𝙋𝘼𝙍𝘼 𝘼𝘿𝙈𝙄𝙉𝙎 🎀',
+    botAdmin: '𝙀𝙇 𝘽𝙊𝙏 𝙉𝙀𝘾𝙀𝙎𝙄𝙏𝘼 𝙎𝙀𝙏 𝘼𝘿𝙈𝙄𝙉 ⚠️',
+    unreg: '𝙋𝘼𝙍𝘼 𝙐𝙎𝘼𝙍 𝙀𝙎𝙏𝘼 𝙁𝙐𝙉𝘾𝙄𝙊𝙉, 𝙎𝙀 𝙏𝙄𝙀𝙉𝙀 𝙌𝙐𝙀 𝙑𝙀𝙍𝙄𝙁𝙄𝘾𝘼𝙍 💗\n\n!verificar nombre.edad\n\n*Uso Correcto* : !verificar Nico.15',
+    restrict: '𝙀𝙎𝙏𝙀 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 𝙁𝙐𝙀 𝘿𝙀𝙎𝘼𝘽𝙄𝙇𝙄𝙏𝘼𝘿𝙊 𝙋𝙊𝙍 𝙈𝙄 𝘿𝙐𝙀Ñ𝙊 (𝙉𝙄𝘾𝙊) 💗',
     }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
   const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '👋🏻 !𝗛𝗼𝗹𝗮!', body: '🧸 𝙻𝙸𝙽𝙳𝙰 𝙼𝙰𝙽̃𝙰𝙽𝙰 🧸', thumbnail: imagen1, sourceUrl: 'https://chat.whatsapp.com/FM3nxGG4NvHETBmvJu8r52'}}}}, aa);
