@@ -1,3 +1,4 @@
+//comando de https://github.com/nicoTK1/NicoBotLite-MD
 const {downloadContentFromMessage} = (await import('@whiskeysockets/baileys'));
 
 export async function before(m, {isAdmin, isBotAdmin}) {
