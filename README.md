@@ -3,7 +3,7 @@
 
 ### 𝙉𝙞𝙘𝙤𝙤 : 𝘽𝙤𝙩 - 𝙇𝙞𝙩𝙚 - 𝙈𝘿 🌐
 <p align="center">
-<img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.immediate.co.uk%2Fproduction%2Fvolatile%2Fsites%2F3%2F2023%2F04%2Fenr198main-Cropped-c924ad6.jpg%3Fresize%3D426%252C223&tbnid=pL0zD2dpVJylRM&vet=1&imgrefurl=https%3A%2F%2Fwww.radiotimes.com%2Ftv%2Ffantasy%2Fanime%2Foshi-no-ko-anime-hype-comment%2F&docid=61KDaupP_e1-mM&w=426&h=223&source=sh%2Fx%2Fim%2Fm5%2F2&kgs=e0320638d512f21b&shem=abc" alt="Bot-WhatsApp" width="900"/>
+<img src="https://telegra.ph/file/b02bbca79774c02bda357.jpg" alt="Bot-WhatsApp" width="900"/>
 </p>
 
 ### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Prueba El Bot Aqui" width="42" height="42"> Prueba El Bot Aqui
