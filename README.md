@@ -77,11 +77,11 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > npm start
 ```
 - ### 📍Actualizar SakuraBot 🟢
-> Note Comandos para actualizar SakuraBotLite-MD de forma automática
+> Note Comandos para actualizar NicoBotLite-MD de forma automática
 ```bash
 grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/nicoTK1/NicoBotLite-MD/master/update.sh | bash
 ```
-Para que no pierda su progreso en SakuraBot, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
+Para que no pierda su progreso en NicoBotLite-MD, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
 
 > Warning Estos comandos solo funcionan para TERMUX, REPLIT, LINUX
 
