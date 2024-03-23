@@ -39,7 +39,7 @@ termux-setup-storage
 ```
 
 ```bash
-apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/diegojadibot/SakuraBotLite-MD/master/sakura.sh | bash
+apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/nicoTK1/Tk1BotLite-MD/master/sakura.sh | bash
 ```
 
 - #### 📍Instalacion Por Termux Manual👨‍💻
@@ -52,7 +52,7 @@ termux-setup-storage
 apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 ```bash
-git clone https://github.com/diegojadibot/SakuraBotLite-MD && cd SakuraBotLite-MD
+git clone https://github.com/nicoTK1/Tk1BotLite-MD && cd SakuraBotLite-MD
 ```
 ```bash
 yarn install && npm install
@@ -79,7 +79,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 - ### 📍Actualizar SakuraBot 🟢
 > Note Comandos para actualizar SakuraBotLite-MD de forma automática
 ```bash
-grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/diegojadibot/SakuraBotLite-MD/master/update.sh | bash
+grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/diegojadibot/Tk1BotLite-MD/master/update.sh | bash
 ```
 Para que no pierda su progreso en SakuraBot, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
 
