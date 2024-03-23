@@ -14,7 +14,7 @@
 
 
 - ### 🌤Configuracion🧩
- Clonar Repo : SakuraBot [Aqui.](https://github.com/nicoTK1/NicoBotLite-MD/fork)
+ Clonar Repo : NicoBot [Aqui.](https://github.com/nicoTK1/NicoBotLite-MD/fork)
 
    
   
@@ -73,7 +73,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ```bash
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd NicoBotLite-MD
-> rm -rf Nicobotseccion
+> rm -rf NicoBotSession
 > npm start
 ```
 - ### 📍Actualizar SakuraBot 🟢
