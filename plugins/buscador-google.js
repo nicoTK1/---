@@ -1,3 +1,4 @@
+//comando de https://github.com/nicoTK1/NicoBotLite-MD
 import {googleIt} from '@bochilteam/scraper';
 import google from 'google-it';
 import axios from 'axios';
