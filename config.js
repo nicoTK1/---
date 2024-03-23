@@ -35,7 +35,7 @@ global.lenguajeSK = es //idioma de sakurabot
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 🍁
 global.packname = '𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌸';
-global.author = '𝖣𝗂𝖾𝗀𝗈 ⚡️';
+global.author = 'Nico ⚡️';
 global.wm = 'Sakura : Bot 🌹';
 global.sk = '𝗦𝖺𝗄𝗎𝗋𝖺 : 𝗕𝗈𝗍 - 𝗟𝗂𝗍𝖾';
 global.titulowm = '𝗦𝖺𝗄𝗎𝗋𝖺 : 𝗕𝗈𝗍';
@@ -94,7 +94,7 @@ global.wm2 = `${dia} ${fecha}\nSakuritaBot`;
 global.gt = 'SakuraBot';
 global.mysticbot = 'SakuraBot';
 global.mysticbot = 'https://chat.whatsapp.com/FM3nxGG4NvHETBmvJu8r52';
-global.nomorown = '573012482694';
+global.nomorown = '543513610400';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
