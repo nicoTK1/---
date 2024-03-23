@@ -34,11 +34,11 @@ global.prems = ['543513610400'];
 global.lenguajeSK = es //idioma de sakurabot
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 🍁
-global.packname = '𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌸';
-global.author = 'Nico ⚡️';
-global.wm = 'Sakura : Bot 🌹';
-global.sk = '𝗦𝖺𝗄𝗎𝗋𝖺 : 𝗕𝗈𝗍 - 𝗟𝗂𝗍𝖾';
-global.titulowm = '𝗦𝖺𝗄𝗎𝗋𝖺 : 𝗕𝗈𝗍';
+global.packname = '𝙉𝙞𝙘𝙤𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌐';
+global.author = '𝙉𝙄𝘾𝙊 ⚡️';
+global.wm = '𝙉𝙄𝘾𝙊 : 𝘽𝙊𝙏 🌹';
+global.sk = '𝙉𝙄𝘾𝙊 : 𝘽𝙊𝙏 - 𝙇𝙄𝙏𝙀';
+global.titulowm = '𝙉𝙄𝘾𝙊 : 𝘽𝙊𝙏';
 global.titulowm2 = `𝙉𝙄𝘾𝙊 𝙊𝙁𝙄𝘾𝙄𝘼𝙇`
 global.igfg = '𝙉𝙄𝘾𝙊 𝙊𝙁𝙄𝘾𝙄𝘼𝙇';
 global.vs = '1.0.7';
@@ -58,11 +58,11 @@ global.imagen5 = fs.readFileSync('./src/+18.jpg');
 global.imagen6 = fs.readFileSync('./Menu3.png');
 
 //• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
-global.gp1 = 'https://chat.whatsapp.com/FM3nxGG4NvHETBmvJu8r52' //Grupo Oficial De SakuraBot
+global.gp1 = 'https://chat.whatsapp.com/FM3nxGG4NvHETBmvJu8r52' //Grupo Oficial De 𝙉𝙄𝘾𝙊 𝘽𝙊𝙏
 
-global.gp2 = 'https://chat.whatsapp.com/FM3nxGG4NvHETBmvJu8r52' //CuriosityBot Y SakuraBot
+global.gp2 = 'https://chat.whatsapp.com/FM3nxGG4NvHETBmvJu8r52' //𝙉𝙄𝘾𝙊 𝘽𝙊𝙏 Y 𝙉𝙄𝘾𝙊 𝘽𝙊𝙏
 
-global.gp3 = 'https://chat.whatsapp.com/FM3nxGG4NvHETBmvJu8r52' //NovaBot Y SakuraBot
+global.gp3 = 'https://chat.whatsapp.com/FM3nxGG4NvHETBmvJu8r52' //𝙉𝙄𝘾𝙊 𝘽𝙊𝙏 Y 𝙉𝙄𝘾𝙊 𝘽𝙊𝙏
 
 global.gp4 = 'https://chat.whatsapp.com/FM3nxGG4NvHETBmvJu8r52' //Grupo MultiBots
 
@@ -90,9 +90,9 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\nSakuritaBot`;
-global.gt = 'SakuraBot';
-global.mysticbot = 'SakuraBot';
+global.wm2 = `${dia} ${fecha}\nNiquitoBot`;
+global.gt = '𝙉𝙄𝘾𝙊 𝘽𝙊𝙏';
+global.mysticbot = '𝙉𝙄𝘾𝙊 𝘽𝙊𝙏';
 global.mysticbot = 'https://chat.whatsapp.com/FM3nxGG4NvHETBmvJu8r52';
 global.nomorown = '543513610400';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
