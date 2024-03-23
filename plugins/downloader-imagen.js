@@ -1,6 +1,7 @@
+//comando de https://github.com/nicoTK1/NicoBotLite-MD
 import {googleImage} from '@bochilteam/scraper';
 const handler = async (m, {conn, text, usedPrefix, command}) => {
-  if (!text) throw `*🧸 Uso Correcto: ${usedPrefix + command} Sakura*`;
+  if (!text) throw `*🧸 Uso Correcto: ${usedPrefix + command} NicoBot*`;
   const res = await googleImage(text);
   const image = await res.getRandom();
   const link = image;
