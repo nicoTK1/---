@@ -25,12 +25,12 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
 
 const document = doc[Math.floor(Math.random() * doc.length)];
- const str = `╭✨️⸽⃕𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯🍁⃨፝⃕✰*
-┃➸ 𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯🧸
+ const str = `╭✨️𝐍𝐢𝐜𝐨𝐁𝐨𝐭𝐋𝐢𝐭𝐞-𝐌𝐃✰*
+┃➸ 𝐍𝐢𝐜𝐨𝐁𝐨𝐭𝐋𝐢𝐭𝐞-𝐌𝐃 🧸
 ┃➸ 📍𝖢𝗈𝗅𝖺𝖻𝗈𝗋𝖺𝖽𝗈𝗋𝖾𝗌
 ╰◆━━━━━━◆❃◆━━━━━━◆
 
-*╭🧸⸽⃕𝗥𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝗶𝗼𝘀 𝗚𝗶𝘁𝗵𝘂𝗯📍✰*
+*╭🧸⸽⃕𝐍𝐢𝐜𝐨𝐁𝐨𝐭𝐋𝐢𝐭𝐞-𝐌𝐃📍✰*
 ┃✣➸ NICO (TK1):
 ┃ 543513610400
 ┃
@@ -68,7 +68,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
       conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: fkontak2});
     }
   } catch {
-    conn.reply(m.chat, '*😻 𝘓𝘰𝘴𝘪𝘦𝘯𝘵𝘰, 𝘌𝘳𝘳𝘰𝘳, 𝘕𝘰 𝘗𝘶𝘦𝘥𝘰 𝘌𝘯𝘷𝘪𝘢𝘳 𝘌𝘭 𝘔𝘦𝘯𝘴𝘢𝘫𝘦!*', m);
+    conn.reply(m.chat, '*𝘌𝘳𝘳𝘰𝘳, 𝐍𝐢𝐜𝐨𝐁𝐨𝐭𝐋𝐢𝐭𝐞-𝐌𝐃 ❌!*', m);
   }
 };
 handler.command = /^(colaboradores|Colaboradores)$/i;
