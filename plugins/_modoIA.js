@@ -1,3 +1,4 @@
+//comando de https://github.com/nicoTK1/NicoBotLite-MD
 import fetch from 'node-fetch';
 import translate from '@vitalets/google-translate-api';
 const handler = (m) => m;
