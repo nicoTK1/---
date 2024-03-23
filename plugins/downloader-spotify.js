@@ -1,4 +1,4 @@
-
+//comando de https://github.com/nicoTK1/NicoBotLite-MD
 import fetch from 'node-fetch';
 import fs from 'fs';
 import axios from 'axios';
