@@ -1,3 +1,4 @@
+//comando de https://github.com/nicoTK1/NicoBotLite-MD
 import gplay from "google-play-scraper";
 
 let handler = async (m, { conn, text }) => {
