@@ -1,5 +1,5 @@
 const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, isROwner}) => {
-  const optionsFull = `╭✨️⸽⃕SᴀᴋᴜʀᴀBᴏᴛLɪᴛᴇ-MD🍁⃨፝⃕✰
+  const optionsFull = `╭✨️⸽⃕𝐍𝐢𝐜𝐨𝐁𝐨𝐭𝐋𝐢𝐭𝐞-𝐌𝐃🌐✰
 ┣☆ ඬ⃟⚓️ !enable welcome
 ┣☆ ඬ⃟⚓️ !disable welcome
 ┣☆ ඬ⃟🌐 !enable public
@@ -22,7 +22,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 ┣☆ ඬ⃟🎭 !disable restrict
 ┣☆ ඬ⃟🔮 !enable autoread
 ┣☆ ඬ⃟🔮 !disable autoread
-┣☆ ඬ⃟🛡️ !enable audios
+┣☆ ඬ⃟🛡️ !enable audios 
 ┣☆ ඬ⃟🛡️ !disable audios
 ┣☆ ඬ⃟🛡️ !enable autosticker
 ┣☆ ඬ⃟🛡️ !disable autosticker
@@ -361,7 +361,7 @@ break;
       if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, {text: optionsFull}, {quoted: m});
       throw false;
   }
-  conn.sendMessage(m.chat, {text: `ꨄ︎ *🧸 Tipo*: ${type}\nꨄ︎ *📍 Estado*: ${isEnable ? 'Activo ✅️' : 'Desactivo ❎️'}\nꨄ︎ *🧩 Para*: ${isAll ? '𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 ' : isUser ? '' : 'Este Chat'}`}, {quoted: m});
+  conn.sendMessage(m.chat, {text: `ꨄ︎ *🧸 Tipo*: ${type}\nꨄ︎ *📍 Estado*: ${isEnable ? 'Activo ✅️' : 'Desactivo ❎️'}\nꨄ︎ *🧩 Para*: ${isAll ? '𝐍𝐢𝐜𝐨𝐁𝐨𝐭𝐋𝐢𝐭𝐞-𝐌𝐃 ' : isUser ? '' : 'Este Chat'}`}, {quoted: m});
 };
 handler.command = /^((en|dis)able|(tru|fals)e|(turn)?[01])$/i;
 export default handler;
