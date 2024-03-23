@@ -14,7 +14,7 @@ handler.before = async (m) => {
         const namedem = `${name || 'Sin Definir'}`
         const sytm = await fetch(`https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/chatgpt_indicciones.txt`).then(v => v.text());
         const sistema1 = sytm.replace('@name', namedem)
-        const sistema2 = 'Tu seras Sakura - Bot - MD, un Bot de WhatsApp creado por Diego';
+        const sistema2 = '𝙏𝙐 𝙀𝙍𝙀𝙎 - 𝙉𝙞𝙘𝙤𝘽𝙤𝙩𝙇𝙞𝙩𝙚 - 𝙈𝘿, un Bot de WhatsApp creado por 𝙉𝙄𝘾𝙊𝙊𝙈𝙊𝘿𝙕𝙯';
         try {
         async function getOpenAIChatCompletion(texto) {
         const openaiAPIKey = global.openai_key;
