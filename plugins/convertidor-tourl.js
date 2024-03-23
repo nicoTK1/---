@@ -1,9 +1,10 @@
+//comando de https://github.com/nicoTK1/NicoBotLite-MD
 import uploadFile from '../lib/uploadFile.js';
 import uploadImage from '../lib/uploadImage.js';
 const handler = async (m) => {
   const q = m.quoted ? m.quoted : m;
   const mime = (q.msg || q).mimetype || '';
-  if (!mime) throw '*⚠️ Responda A Una Imagen.*';
+  if (!mime) throw '⚠️ 𝙍𝙀𝙎𝙋𝙊𝙉𝘿𝘼 𝘼 𝙐𝙉𝘼 𝙄𝙈𝘼𝙂𝙀𝙉';
   const media = await q.download();
   const isTele = /image\/(png|jpe?g|gif)|video\/mp4/.test(mime);
   const link = await (isTele ? uploadImage : uploadFile)(media);
