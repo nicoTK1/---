@@ -13,23 +13,23 @@ global.confirmCode = ""
 
 //• ↳𝑷𝑶𝑵 𝑳𝑶𝑺 𝑵𝑼𝑴𝑬𝑹𝑶𝑺 𝑸𝑼𝑬 𝑸𝑼𝑰𝑬𝑹𝑨𝑺
 global.owner = [
- ['543513610400', '👑 𝗖𝗿𝗲𝗮𝗱𝗼𝗿 ⚡️', true],
- ['543513610400', '𝗢𝘄𝗻𝗲𝗿 📖', true],
+ ['5493513610400', '👑 𝗖𝗿𝗲𝗮𝗱𝗼𝗿 ⚡️', true],
+ ['5493513610400', '𝗢𝘄𝗻𝗲𝗿 📖', true],
+ ['5493513610400'],
  ['543513610400'],
- ['543513610400'],
- ['543513610400'],
- ['543513610400']]
+ ['5493513610400'],
+ ['5493513610400']]
 
 //• ↳𝑨𝑮𝑹𝑬𝑮𝑨𝑻𝑬 𝑺𝑰 𝑬𝑹𝑬𝑺 𝑶𝑾𝑵𝑬𝑹
 global.contactos = [
-["543513610400", '𝙉𝙄𝘾𝙊 𝙊𝙁𝙄𝘾𝙄𝘼𝙇 ⚡️', 1],
-["543513610400", '𝗢𝘄𝗻𝗲𝗿 📖', 1],
-["543513610400", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 🍧', 1],
-["543513610400", '𝗦𝗼𝗽𝗼𝗿𝘁𝗲 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 🌹', 1]]
+["5493513610400", '𝙉𝙄𝘾𝙊 𝙊𝙁𝙄𝘾𝙄𝘼𝙇 ⚡️', 1],
+["5493513610400", '𝗢𝘄𝗻𝗲𝗿 📖', 1],
+["5493513610400", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 🍧', 1],
+["5493513610400", '𝗦𝗼𝗽𝗼𝗿𝘁𝗲 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 🌹', 1]]
 
 
-global.suittag = ['543513610400'];
-global.prems = ['543513610400'];
+global.suittag = ['5493513610400'];
+global.prems = ['5493513610400'];
 
 global.lenguajeSK = es //idioma de sakurabot
 
@@ -94,7 +94,7 @@ global.wm2 = `${dia} ${fecha}\nNiquitoBot`;
 global.gt = '𝙉𝙄𝘾𝙊 𝘽𝙊𝙏';
 global.mysticbot = '𝙉𝙄𝘾𝙊 𝘽𝙊𝙏';
 global.mysticbot = 'https://chat.whatsapp.com/FM3nxGG4NvHETBmvJu8r52';
-global.nomorown = '543513610400';
+global.nomorown = '5493513610400';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
