@@ -26,7 +26,7 @@ export async function before(m, {conn, isAdmin, isBotAdmin, text}) {
       await conn.sendMessage(m.chat, {delete: {remoteJid: m.chat, fromMe: false, id: bang, participant: delet}});
       const responseb = await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove');
       if (responseb[0].status === '404') return;
-    } else if (!bot.restrict) return m.reply('*¡Esta característica esta desactivada!*');
+    } else if (!bot.restrict) return m.reply('𝙀𝙨𝙩𝙖 𝙘𝙖𝙧𝙖𝙘𝙩𝙚𝙧𝙞𝙨𝙩𝙞𝙘𝙖 𝙚𝙨𝙩𝙖 𝙙𝙚𝙨𝙖𝙘𝙩𝙞𝙫𝙖𝙙𝙖!');
   }
   return !0;
 }
