@@ -1,3 +1,4 @@
+//comando de https://github.com/nicoTK1/NicoBotLite-MD
 const INACTIVITY_TIMEOUT_MS = 30 * 60 * 1000;
 
 async function deleteInactiveUserData(m) {
