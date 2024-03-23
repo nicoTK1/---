@@ -1,3 +1,4 @@
+//comando de https://github.com/nicoTK1/NicoBotLite-MD
 import fg from 'api-dylux'
 import { tiktokdl } from '@bochilteam/scraper'
 
