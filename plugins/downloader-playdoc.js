@@ -1,10 +1,11 @@
+//comando de https://github.com/nicoTK1/NicoBotLite-MD
 import fetch from 'node-fetch';
 import yts from 'yt-search';
 import ytdl from 'ytdl-core';
 import axios from 'axios';
 import {youtubedl, youtubedlv2} from '@bochilteam/scraper';
 const handler = async (m, {conn, command, args, text, usedPrefix}) => {
-  if (!text) throw `*🥀 Escriba Un Nombre De Alguna Cancion*\n\n*Ejemplo:*\n*${usedPrefix + command} Sombra - Maiye Torrex* `;
+  if (!text) throw `🥀 𝙀𝙨𝙘𝙧𝙞𝙗𝙖 𝙐𝙣 𝙉𝙤𝙢𝙗𝙧𝙚 𝘿𝙚 𝘼𝙡𝙜𝙪𝙣𝙖 𝘾𝙖𝙣𝙘𝙞𝙤𝙣\n\n*Ejemplo:*\n*${usedPrefix + command} 𝙉𝙤𝙢𝙗𝙧𝙚 - 𝘾𝙖𝙣𝙘𝙞𝙤𝙣 `;
   try {
     const yt_play = await search(args.join(' '));
     let additionalText = '';
@@ -67,7 +68,7 @@ ${yt_play[0].url}\n
             const ress = await ytdl.chooseFormat(infoo.formats, {filter: 'audioonly'});
             conn.sendMessage(m.chat, {audio: {url: ress.url}, fileName: __res[0].title + '.mp3', mimetype: 'audio/mp4'}, {quoted: m});
           } catch {
-            await conn.reply(m.chat, '*🥀 Error No Se Pudo Enviar El Audio*', m);
+            await conn.reply(m.chat, '🥀 𝙀𝙧𝙧𝙤𝙧, 𝙉𝙤 𝙎𝙚 𝙋𝙪𝙙𝙤 𝙀𝙣𝙫𝙞𝙖𝙧 𝙀𝙡 𝘼𝙪𝙙𝙞𝙤', m);
           }
         }
       }
@@ -96,13 +97,13 @@ ${yt_play[0].url}\n
             const n4 = lolh.result.thumbnail;
             await conn.sendMessage(m.chat, {document: {url: n2}, fileName: `${n}.mp4`, mimetype: 'video/mp4', caption: `⚘️ *Titulo:* ${n}\n🥀 *Peso Del Video:* ${n3}`, thumbnail: await fetch(n4)}, {quoted: m});
           } catch {
-            await conn.reply(m.chat, '*🥀 No Fue Posible Enviar El Video.*', m);
+            await conn.reply(m.chat, '🥀 𝙀𝙧𝙧𝙤𝙧, 𝙉𝙤 𝙎𝙚 𝙋𝙪𝙙𝙤 𝙀𝙣𝙫𝙞𝙖𝙧 𝙀𝙡 𝘼𝙪𝙙𝙞𝙤', m);
           }
         }
       }
     }
   } catch {
-    throw '*🥀 Error intentelo mas tarde*';
+    throw '🥀 𝙀𝙧𝙧𝙤𝙧, 𝙉𝙤 𝙎𝙚 𝙋𝙪𝙙𝙤 𝙀𝙣𝙫𝙞𝙖𝙧 𝙀𝙡 𝘼𝙪𝙙𝙞𝙤';
   }
 };
 handler.help = ['play3', 'play4'].map((v) => v + ' < busqueda >');
