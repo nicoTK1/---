@@ -1,3 +1,4 @@
+//comando de https://github.com/nicoTK1/NicoBotLite-MD
 import { sticker } from '../lib/sticker.js'
 let handler = m => m
 
