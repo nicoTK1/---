@@ -1,3 +1,4 @@
+//comando de https://github.com/nicoTK1/NicoBotLite-MD
 import {find_lyrics} from '@brandond/findthelyrics';
 import {getTracks} from '@green-code/music-track-data';
 import {googleImage} from '@bochilteam/scraper';
