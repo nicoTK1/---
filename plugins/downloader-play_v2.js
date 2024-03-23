@@ -28,7 +28,7 @@ if (enviando) return;
 
     if (!data.resultado || !data.resultado.url) {
       enviando = false;
-      throw `*[❗] No se pudo obtener la URL del video/canción.*`;
+      throw `[❗] 𝙉𝙤 𝙨𝙚 𝙥𝙪𝙙𝙤 𝙤𝙗𝙩𝙚𝙣𝙚𝙧 𝙡𝙖 𝙐𝙍𝙇 𝙙𝙚𝙡 𝙫𝙞𝙙𝙚𝙤/𝙘𝙖𝙣𝙘𝙞ó𝙣.`;
     } else {
       try {
         if (command === 'play.1') {
@@ -57,7 +57,7 @@ if (enviando) return;
             }
           } catch {
             enviando = false;
-            throw `*[❗] Error al descargar el video/canción desde las APIs disponibles.`;
+            throw `*[❗] 𝙀𝙧𝙧𝙤𝙧 𝙖𝙡 𝙙𝙚𝙨𝙘𝙖𝙧𝙜𝙖𝙧 𝙚𝙡 𝙫𝙞𝙙𝙚𝙤/𝙘𝙖𝙣𝙘𝙞ó𝙣 𝙙𝙚𝙨𝙙𝙚 𝙡𝙖𝙨 𝘼𝙋𝙄𝙨 𝙙𝙞𝙨𝙥𝙤𝙣𝙞𝙗𝙡𝙚𝙨.`;
           }
        }
     }
@@ -70,7 +70,7 @@ if (enviando) return;
       enviando = false;
     } else {
       enviando = false;
-      throw `*[❗] Error al descargar el video/canción desde las APIs disponibles.`;
+      throw `*[❗] 𝙀𝙧𝙧𝙤𝙧 𝙖𝙡 𝙙𝙚𝙨𝙘𝙖𝙧𝙜𝙖𝙧 𝙚𝙡 𝙫𝙞𝙙𝙚𝙤/𝙘𝙖𝙣𝙘𝙞ó𝙣 𝙙𝙚𝙨𝙙𝙚 𝙡𝙖𝙨 𝘼𝙋𝙄𝙨 𝙙𝙞𝙨𝙥𝙤𝙣𝙞𝙗𝙡𝙚𝙨.`;
     }
   } catch (error) {
     enviando = false;
