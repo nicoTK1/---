@@ -1,8 +1,8 @@
 # Código desarrollado por @gata_dios 
   # * Al bifurcar este repositorio, dejen los créditos a todos los creadores de cada código por favor. ♥
 #!/data/data/com.termux/files/usr/bin/bash 
-BOT_DIR="SakuraBotLite-MD"  
-BOT_REPO="https://github.com/diegojadibot/$BOT_DIR"
+BOT_DIR="𝐍𝐢𝐜𝐨𝐁𝐨𝐭𝐋𝐢𝐭𝐞-𝐌𝐃"  
+BOT_REPO="https://github.com/nicoTK1/$BOT_DIR"
 DB_FILE="database.json"
 
 GREEN='\033[32m'
