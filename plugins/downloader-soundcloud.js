@@ -1,3 +1,4 @@
+//comando de https://github.com/nicoTK1/NicoBotLite-MD
 import fetch from 'node-fetch';
 const handler = async (m, {conn, text}) => {
   if (!text) throw `*🍓 𝗜𝗻𝗴𝗿𝗲𝘀𝗲 𝗨𝗻 𝗡𝗼𝗺𝗯𝗿𝗲 𝗗𝗲 𝗔𝗹𝗴𝘂𝗻𝗮 𝗠𝘂𝘀𝗶𝗰𝗮*`;
