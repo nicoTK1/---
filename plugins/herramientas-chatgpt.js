@@ -48,7 +48,7 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
     } catch {
       try {
         conn.sendPresenceUpdate('composing', m.chat);
-        const syms1 = `Actuaras como un Bot de WhatsApp el cual fue creado por Diego, tu seras NicoBot-MD.`;
+        const syms1 = `Actuaras como un Bot de WhatsApp el cual fue creado por Nico, tu seras NicoBot-MD.`;
         const fgapi1 = await fetch(`https://api-fgmods.ddns.net/api/info/openai?text=${text}&symsg=${syms1}&apikey=XlwAnX8d`);
         const fgjson1 = await fgapi1.json();
         if (fgjson1.result == 'error' || fgjson1.result == '' || !fgjson1.result) return XD; // causar error undefined para lanzar msg de error
@@ -117,5 +117,5 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
   }}
  }}
 };
-handler.command = /^(chatgpt|ia|robot|openai2|chatgpt2|ia2|robot2|Lite|SakuraBot)$/i;
+handler.command = /^(chatgpt|ia|robot|openai2|chatgpt2|ia2|robot2|Lite|NicoBot)$/i;
 export default handler;
