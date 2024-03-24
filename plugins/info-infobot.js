@@ -48,7 +48,7 @@ const handler = async (m, { conn, usedPrefix }) => {
   ];
   const document = doc[Math.floor(Math.random() * doc.length)];
   const Message = {
-    document: { url: `https://github.com/diegojadibot/SakuraBotLite-MD` },
+    document: { url: `https://github.com/diegojadibot/NicoBotLite-MD` },
     mimetype: `application/${document}`,
     fileName: `NICO BOT LITE ⚡`,
     fileLength: 99999999999999,
@@ -63,7 +63,7 @@ const handler = async (m, { conn, usedPrefix }) => {
         title: "Tᴜ Mᴇᴊᴏʀ Bᴏᴛ!",
         body: wm,
         thumbnail: imagen6,
-        sourceUrl: "https://atom.bio/sakuralite",
+        sourceUrl: "https://www.instagram.com/nike.ontivero/?hl=es-la",
       },
     },
     caption: info,
