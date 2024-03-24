@@ -39,7 +39,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 
 ➪ pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn 
 
-➪ git clone https://github.com/nicoTK1/NicoBotLite-MD.git && cd SakuraBotLite-MD
+➪ git clone https://github.com/nicoTK1/NicoBotLite-MD.git && cd NicoBotLite-MD
 
 ➪ yarn install
 
